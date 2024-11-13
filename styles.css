@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e7d4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.carta {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.GRUP {
+    margin-bottom: 20px;
+}
+
+.GRUP h2.NOM {
+    font-size: 1.5em;
+    color: #800020;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.PLAT {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.PLAT .NOM {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.PLAT .DESCRIPCIO {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.PLAT .PREU {
+    font-weight: bold;
+    color: #333;
+}
